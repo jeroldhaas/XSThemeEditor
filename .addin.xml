@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Addin namespace	= "MD.ThemeEditor"
+	   id			= "XSThemeEditor"
+	   name			= "XSThemeEditor"
+	   author		= "Jerold Haas"
+	   copyright	= "MIT/X11"
+	   url			= "www.url.com"
+	   description	= "Allows for customisation for XS (possibly MD) "
+	   category		= "IDE Extensions"
+	   version		= "0.1">
+
+</Addin>
+
+	   
+
