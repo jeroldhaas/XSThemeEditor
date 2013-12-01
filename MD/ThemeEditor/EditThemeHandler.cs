@@ -5,8 +5,9 @@ namespace XSThemeEditor
 {
 	class EditThemeHandler : CommandHandler
 	{
-		protected override void Run ()
+		protected override void Run()
 		{
+			MonoDevelop.Ide.
 		}
 		
 		protected override void Update(CommandInfo info)
