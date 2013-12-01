@@ -9,7 +9,18 @@
 	   category		= "IDE Extensions"
 	   version		= "0.1">
 
+	   <Dependencies>
+	   		<Addin id="::MonoDevelop.Ide" version="4.0">
+	   			<Extension path = "/Monodevelop/Ide/Commands/Tools">
+	   				<Command id 			= "XSThemeEditor.EditTheme"
+	   						 defaultHandler	= "XSThemeEditor.EditThemeHandler"
+	   						 _label 		= "Edit Xamarin Studio UI Style..."
+	   						 _description 	= "Edit the Xamarin Studio UI Style" />
+	   			</Extension>
+	   			
+	   			<Extension path="/Monodevelop/Ide/MainMenu/Tools">
+	   				<CommandItem id="XSThemeEditor.EditTheme" />
+	   			</Extension>
+	   		</Addin>
+	   </Dependencies>
 </Addin>
-
-	   
-
