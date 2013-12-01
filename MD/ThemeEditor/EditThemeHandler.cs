@@ -7,7 +7,7 @@ namespace XSThemeEditor
 	{
 		protected override void Run()
 		{
-			MonoDevelop.Ide.
+			MonoDevelop.Core.Text = "foo";
 		}
 		
 		protected override void Update(CommandInfo info)
