@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "XSThemeEditor", "XSThemeEditor\XSThemeEditor.fsproj", "{82DB45E6-1CF7-4BF0-9283-A06AA73FBDFB}"
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "ThemeEditor", "XSThemeEditor\ThemeEditor.fsproj", "{82DB45E6-1CF7-4BF0-9283-A06AA73FBDFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,6 @@ Global
 		{82DB45E6-1CF7-4BF0-9283-A06AA73FBDFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = XSThemeEditor\XSThemeEditor.fsproj
+		StartupItem = XSThemeEditor\ThemeEditor.fsproj
 	EndGlobalSection
 EndGlobal
