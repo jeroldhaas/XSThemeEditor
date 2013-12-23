@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{82DB45E6-1CF7-4BF0-9283-A06AA73FBDFB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>XSThemeEditor</RootNamespace>
+    <AssemblyName>XSThemeEditor</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>
+    </PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <Tailcalls>true</Tailcalls>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>
+    </PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="FSharp.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="MonoDevelop.Core">
+      <HintPath>C:\Program Files %28x86%29\Xamarin Studio\bin\MonoDevelop.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoDevelop.Ide">
+      <HintPath>C:\Program Files %28x86%29\Xamarin Studio\bin\MonoDevelop.Ide.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Components">
+      <HintPath>C:\Program Files %28x86%29\Xamarin Studio\bin\Xamarin.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Components.Ide">
+      <HintPath>C:\Program Files %28x86%29\Xamarin Studio\bin\Xamarin.Components.Ide.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Ide">
+      <HintPath>C:\Program Files %28x86%29\Xamarin Studio\bin\Xamarin.Ide.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Ide.Windows">
+      <HintPath>C:\Program Files %28x86%29\Xamarin Studio\bin\Xamarin.Ide.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Xwt">
+      <HintPath>C:\Program Files %28x86%29\Xamarin Studio\bin\Xwt.dll</HintPath>
+    </Reference>
+    <Reference Include="Xwt.Gtk">
+      <HintPath>C:\Program Files %28x86%29\Xamarin Studio\bin\Xwt.Gtk.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Commands.fs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets" />
+  <ItemGroup>
+    <None Include="MonoDevelop.ThemeEditor.addin.xml" />
+    <None Include="Resources\gtkrc" />
+    <None Include="Resources\gtkrc.mac" />
+    <None Include="Resources\gtkrc.win32" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+</Project>
