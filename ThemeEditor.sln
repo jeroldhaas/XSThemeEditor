@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "ThemeEditor", "XSThemeEditor\ThemeEditor.fsproj", "{82DB45E6-1CF7-4BF0-9283-A06AA73FBDFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82DB45E6-1CF7-4BF0-9283-A06AA73FBDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DB45E6-1CF7-4BF0-9283-A06AA73FBDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DB45E6-1CF7-4BF0-9283-A06AA73FBDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DB45E6-1CF7-4BF0-9283-A06AA73FBDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = XSThemeEditor\ThemeEditor.fsproj
+	EndGlobalSection
+EndGlobal
