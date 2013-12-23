@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Addin	id			= "XSThemeEditor"
+		namespace	= "MonoDevelop"
+		name		= "XS / MD Theme Editor"
+		author		= "Jerold Haas"
+		copyright	= "MIT"
+		description = "Pick Light (default) or Dark Theme (customisation to come)"
+		category	= "UI Themes"
+		version		= "0.1">
+</Addin>
+
+<Dependencies>
+		<Addin id="Ide" version="4.2" />
+		<Addin id="Core" version="4.2" />
+</Dependencies>
